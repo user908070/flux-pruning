@@ -1,0 +1,131 @@
+weights_paths:
+
+  - name: ResNet50
+    paths:
+      CIFAR10: "ResNet50-CIFAR10.pth"
+      CIFAR100: "ResNet50-CIFAR100.pth"
+      StanfordCars: "ResNet50-StanfordCars.pth"
+      Flowers102: "ResNet50-Flowers102.pth"
+      Food101: "ResNet50-Food101.pth"
+      Oxford_IIIT_Pet: "ResNet50-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "ResNet50-Fashion_MNIST.pth"
+      FER2013: "ResNet50-FER2013.pth"
+      iNaturalist: "ResNet50-iNaturalist.pth"
+      ImageNet: "ResNet50-ImageNet.pth"
+
+  - name: DenseNet121
+    paths:
+      CIFAR10: "DenseNet121-CIFAR10.pth"
+      CIFAR100: "DenseNet121-CIFAR100.pth"
+      StanfordCars: "DenseNet121-StanfordCars.pth"
+      Flowers102: "DenseNet121-Flowers102.pth"
+      Food101: "DenseNet121-Food101.pth"
+      Oxford_IIIT_Pet: "DenseNet121-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "DenseNet121-Fashion_MNIST.pth"
+      FER2013: "DenseNet121-FER2013.pth"
+      iNaturalist: "DenseNet121-iNaturalist.pth"
+      ImageNet: "DenseNet121-ImageNet.pth"
+
+  - name: EfficientNetB4
+    paths:
+      CIFAR10: "EfficientNetB4-CIFAR10.pth"
+      CIFAR100: "EfficientNetB4-CIFAR100.pth"
+      StanfordCars: "EfficientNetB4-StanfordCars.pth"
+      Flowers102: "EfficientNetB4-Flowers102.pth"
+      Food101: "EfficientNetB4-Food101.pth"
+      Oxford_IIIT_Pet: "EfficientNetB4-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "EfficientNetB4-Fashion_MNIST.pth"
+      FER2013: "EfficientNetB4-FER2013.pth"
+      iNaturalist: "EfficientNetB4-iNaturalist.pth"
+      ImageNet: "EfficientNetB4-ImageNet.pth"
+
+  - name: EfficientNetV2S
+    paths:
+      CIFAR10: "EfficientNetV2S-CIFAR10.pth"
+      CIFAR100: "EfficientNetV2S-CIFAR100.pth"
+      StanfordCars: "EfficientNetV2S-StanfordCars.pth"
+      Flowers102: "EfficientNetV2S-Flowers102.pth"
+      Food101: "EfficientNetV2S-Food101.pth"
+      Oxford_IIIT_Pet: "EfficientNetV2S-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "EfficientNetV2S-Fashion_MNIST.pth"
+      FER2013: "EfficientNetV2S-FER2013.pth"
+      iNaturalist: "EfficientNetV2S-iNaturalist.pth"
+      ImageNet: "EfficientNetV2S-ImageNet.pth"
+
+  - name: ViTBasePatch16
+    paths:
+      CIFAR10: "ViTBasePatch16-CIFAR10.pth"
+      CIFAR100: "ViTBasePatch16-CIFAR100.pth"
+      StanfordCars: "ViTBasePatch16-StanfordCars.pth"
+      Flowers102: "ViTBasePatch16-Flowers102.pth"
+      Food101: "ViTBasePatch16-Food101.pth"
+      Oxford_IIIT_Pet: "ViTBasePatch16-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "ViTBasePatch16-Fashion_MNIST.pth"
+      FER2013: "ViTBasePatch16-FER2013.pth"
+      iNaturalist: "ViTBasePatch16-iNaturalist.pth"
+      ImageNet: "ViTBasePatch16-ImageNet.pth"
+
+  - name: MobileNetV3L
+    paths:
+      CIFAR10: "MobileNetV3L-CIFAR10.pth"
+      CIFAR100: "MobileNetV3L-CIFAR100.pth"
+      StanfordCars: "MobileNetV3L-StanfordCars.pth"
+      Flowers102: "MobileNetV3L-Flowers102.pth"
+      Food101: "MobileNetV3L-Food101.pth"
+      Oxford_IIIT_Pet: "MobileNetV3L-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "MobileNetV3L-Fashion_MNIST.pth"
+      FER2013: "MobileNetV3L-FER2013.pth"
+      iNaturalist: "MobileNetV3L-iNaturalist.pth"
+      ImageNet: "MobileNetV3L-ImageNet.pth"
+
+  - name: ConvNextSmall
+    paths:
+      CIFAR10: "ConvNextSmall-CIFAR10.pth"
+      CIFAR100: "ConvNextSmall-CIFAR100.pth"
+      StanfordCars: "ConvNextSmall-StanfordCars.pth"
+      Flowers102: "ConvNextSmall-Flowers102.pth"
+      Food101: "ConvNextSmall-Food101.pth"
+      Oxford_IIIT_Pet: "ConvNextSmall-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "ConvNextSmall-Fashion_MNIST.pth"
+      FER2013: "ConvNextSmall-FER2013.pth"
+      iNaturalist: "ConvNextSmall-iNaturalist.pth"
+      ImageNet: "ConvNextSmall-ImageNet.pth"
+
+  - name: InceptionV3
+    paths:
+      CIFAR10: "InceptionV3-CIFAR10.pth"
+      CIFAR100: "InceptionV3-CIFAR100.pth"
+      StanfordCars: "InceptionV3-StanfordCars.pth"
+      Flowers102: "InceptionV3-Flowers102.pth"
+      Food101: "InceptionV3-Food101.pth"
+      Oxford_IIIT_Pet: "InceptionV3-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "InceptionV3-Fashion_MNIST.pth"
+      FER2013: "InceptionV3-FER2013.pth"
+      iNaturalist: "InceptionV3-iNaturalist.pth"
+      ImageNet: "InceptionV3-ImageNet.pth"
+
+  - name: VGG19BN
+    paths:
+      CIFAR10: "VGG19BN-CIFAR10.pth"
+      CIFAR100: "VGG19BN-CIFAR100.pth"
+      StanfordCars: "VGG19BN-StanfordCars.pth"
+      Flowers102: "VGG19BN-Flowers102.pth"
+      Food101: "VGG19BN-Food101.pth"
+      Oxford_IIIT_Pet: "VGG19BN-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "VGG19BN-Fashion_MNIST.pth"
+      FER2013: "VGG19BN-FER2013.pth"
+      iNaturalist: "VGG19BN-iNaturalist.pth"
+      ImageNet: "VGG19BN-ImageNet.pth"
+
+  - name: ShuffleNetV2x2_0
+    paths:
+      CIFAR10: "ShuffleNetV2x2_0-CIFAR10.pth"
+      CIFAR100: "ShuffleNetV2x2_0-CIFAR100.pth"
+      StanfordCars: "ShuffleNetV2x2_0-StanfordCars.pth"
+      Flowers102: "ShuffleNetV2x2_0-Flowers102.pth"
+      Food101: "ShuffleNetV2x2_0-Food101.pth"
+      Oxford_IIIT_Pet: "ShuffleNetV2x2_0-Oxford_IIIT_Pet.pth"
+      Fashion_MNIST: "ShuffleNetV2x2_0-Fashion_MNIST.pth"
+      FER2013: "ShuffleNetV2x2_0-FER2013.pth"
+      iNaturalist: "ShuffleNetV2x2_0-iNaturalist.pth"
+      ImageNet: "ShuffleNetV2x2_0-ImageNet.pth"

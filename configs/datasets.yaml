@@ -1,0 +1,11 @@
+datasets:
+  - CIFAR10
+  - CIFAR100
+  - StanfordCars
+  - Flowers102
+  - Food101
+  - Oxford_IIIT_Pet
+  - Fashion_MNIST
+  - FER2013
+  - iNaturalist
+  - ImageNet
